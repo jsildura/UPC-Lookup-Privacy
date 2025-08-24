@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - UPC Lookup Tool</title>
+    <style>
+        :root {
+          --bg-start: #0f172a; /* slate-900 */
+          --bg-end: #111827;   /* gray-900 */
+          --card-bg: rgba(255,255,255,0.08);
+          --text: #e5e7eb;     /* gray-200 */
+          --muted: #94a3b8;    /* slate-400 */
+          --accent: #60a5fa;   /* blue-400 */
+          --accent-2: #34d399; /* emerald-400 */
+          --border: rgba(255,255,255,0.12);
+          --shadow: rgba(2, 6, 23, 0.6);
+        }
+
+        @media (prefers-color-scheme: light) {
+          :root {
+            --bg-start: #eef2ff; /* indigo-50 */
+            --bg-end: #f8fafc;   /* slate-50 */
+            --card-bg: rgba(255,255,255,0.8);
+            --text: #0f172a;     /* slate-900 */
+            --muted: #475569;    /* slate-600 */
+            --accent: #2563eb;   /* blue-600 */
+            --accent-2: #059669;  /* emerald-600 */
+            --border: rgba(15,23,42,0.08);
+            --shadow: rgba(2, 6, 23, 0.08);
+          }
+        }
+
+        html, body { height: 100%; }
+
+        body {
+          margin: 0;
+          font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+          color: var(--text);
+          background: radial-gradient(1200px 800px at 20% 10%, var(--bg-start), transparent 60%),
+                      radial-gradient(1200px 800px at 80% 90%, var(--bg-end), transparent 60%),
+                      linear-gradient(160deg, var(--bg-start), var(--bg-end));
+        }
+
+        .page {
+          min-height: 100vh;
+          display: grid;
+          place-items: center;
+          padding: 24px;
+        }
+
+        .card {
+          width: min(820px, 96%);
+          background: var(--card-bg);
+          backdrop-filter: saturate(140%) blur(14px);
+          -webkit-backdrop-filter: saturate(140%) blur(14px);
+          border: 1px solid var(--border);
+          border-radius: 18px;
+          box-shadow: 0 20px 60px var(--shadow);
+          padding: 28px 28px 32px;
+        }
+
+        h1 {
+          margin: 0 0 8px 0;
+          font-size: clamp(28px, 4vw, 36px);
+          font-weight: 700;
+          letter-spacing: 0.2px;
+          background: linear-gradient(90deg, var(--accent), var(--accent-2));
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+
+        .subtitle {
+          margin: 0 0 18px;
+          color: var(--muted);
+          font-size: 14px;
+        }
+
+        h2 {
+          margin-top: 28px;
+          margin-bottom: 8px;
+          font-size: clamp(18px, 2.5vw, 20px);
+          font-weight: 600;
+          color: var(--text);
+        }
+
+        h3 { margin: 18px 0 8px; font-size: 16px; font-weight: 600; color: var(--text); }
+
+        p { margin: 10px 0; color: var(--text); }
+
+        ul { margin: 8px 0 0; padding-left: 18px; color: var(--text); }
+        li { margin: 6px 0; }
+
+        .highlight {
+          background: linear-gradient(180deg, rgba(99,102,241,0.08), rgba(20,184,166,0.08));
+          border: 1px solid var(--border);
+          color: var(--text);
+          padding: 14px 14px;
+          border-radius: 12px;
+          margin: 14px 0 0;
+        }
+
+        .contact {
+          background: linear-gradient(180deg, rgba(34,197,94,0.10), rgba(59,130,246,0.10));
+          border: 1px solid var(--border);
+          color: var(--text);
+          padding: 14px 14px;
+          border-radius: 12px;
+          margin: 10px 0 0;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .footer-note { margin-top: 20px; color: var(--muted); font-size: 12.5px; }
+    </style>
+</head>
+<body>
+    <div class="page">
+      <div class="card">
+        <h1>Privacy Policy for UPC Barcode Lookup Tool</h1>
+        <p class="subtitle">Transparent data practices for our Chrome extension</p>
+        <div class="highlight">
+            <strong>Last Updated:</strong> August 24, 2025<br>
+            <strong>Effective Date:</strong> August 24, 2025
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy describes how the UPC Barcode Lookup Tool browser extension ("we," "our," or "the extension") collects, uses, and protects your information when you use our Chrome extension.</p>
+
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Local Data Storage</h3>
+        <p>Our extension stores the following data locally on your device using Chrome's storage API:</p>
+        <ul>
+            <li><strong>Search History:</strong> UPC codes you have searched for</li>
+            <li><strong>Search Results Cache:</strong> Product information retrieved from third-party APIs to improve performance</li>
+            <li><strong>User Preferences:</strong> Theme settings (light/dark mode)</li>
+            <li><strong>Panel States:</strong> Which search panels you have enabled/disabled</li>
+            <li><strong>License Information:</strong> Extension license status and validation data</li>
+        </ul>
+
+        <h3>2.2 Data We Do NOT Collect</h3>
+        <ul>
+            <li>Personal identification information</li>
+            <li>Browsing history outside of UPC searches</li>
+            <li>Location data</li>
+            <li>Contact information</li>
+            <li>Financial information</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>The locally stored data is used exclusively to:</p>
+        <ul>
+            <li>Cache search results to improve extension performance and reduce API calls</li>
+            <li>Remember your theme and panel preferences</li>
+            <li>Provide quick access to recently searched UPC codes</li>
+            <li>Validate extension license status</li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        
+        <h3>4.1 Local Storage Only</h3>
+        <p>All data is stored locally on your device using Chrome's secure storage mechanisms. We do not transmit, upload, or store any of your data on external servers.</p>
+
+        <h3>4.2 Data Retention</h3>
+        <ul>
+            <li><strong>Search Cache:</strong> Automatically expires after 3 minutes</li>
+            <li><strong>Preferences:</strong> Stored until manually cleared or extension is uninstalled</li>
+            <li><strong>Search History:</strong> Can be manually cleared using the extension's clear cache function</li>
+        </ul>
+
+        <h2>5. Third-Party Services</h2>
+        <p>Our extension connects to the following third-party APIs to retrieve product information:</p>
+        <ul>
+            <li><strong>BarcodeLookup.com:</strong> For UPC product data</li>
+            <li><strong>UPCItemDB.com:</strong> For additional product information</li>
+            <li><strong>Go-UPC.com:</strong> For supplementary UPC data</li>
+            <li><strong>AllOrigins.win:</strong> For CORS proxy services</li>
+        </ul>
+        
+        <div class="highlight">
+            <strong>Important:</strong> When you search for a UPC code, that code is sent to these third-party services. Please review their respective privacy policies for information about how they handle this data.
+        </div>
+
+        <h2>6. Your Rights and Controls</h2>
+        <p>You have full control over your data:</p>
+        <ul>
+            <li><strong>Clear Cache:</strong> Use the extension's "Clear Search/Cache" button to remove all stored search data</li>
+            <li><strong>Reset Preferences:</strong> Disable and re-enable the extension to reset all preferences</li>
+            <li><strong>Complete Removal:</strong> Uninstalling the extension removes all locally stored data</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Our extension does not knowingly collect any information from children under 13 years of age. The extension is designed for general product lookup purposes and does not target children.</p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this policy. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>9. Data Portability</h2>
+        <p>Since all data is stored locally on your device, you maintain full control and ownership of your data. No special procedures are required for data portability.</p>
+
+        <h2>10. Contact Information</h2>
+        <div class="contact">
+            <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
+            <p>
+                <strong>Email:</strong> upc.lookup@proton.me<br>
+                <strong>Extension Support:</strong> The Developer
+            </p>
+        </div>
+
+        <h2>11. Compliance</h2>
+        <p>This extension and privacy policy are designed to comply with:</p>
+        <ul>
+            <li>Chrome Web Store Developer Program Policies</li>
+            <li>General Data Protection Regulation (GDPR) principles</li>
+            <li>California Consumer Privacy Act (CCPA) requirements</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Summary:</strong> Your privacy is important to us. We only store data locally on your device to improve your experience, and we never transmit your personal information to our servers. You maintain full control over all stored data.
+        </div>
+        <p class="footer-note">This page adapts to your system light/dark theme.</p>
+      </div>
+    </div>
+</body>
+</html>
